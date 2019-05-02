@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-image: url("../imgs/background.png");
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top {
+    width: 100%;
+    height: 20px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 22px;
+    width: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#navbar {
+    width: auto;
+    height: auto;
+    text-align: center;
+    float: left;
+}
+
+#navbar nav {
+    text-align: center;
+}
+
+.nav li {
+    float: left;
+    line-height: 20px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    box-shadow: 2px 2px 0 0 rgba(0,0,0,1);
+    background-color: #fff;
+}
+
+#searchfield {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 20px;
+}
+
+#signbar{
+    margin-left: 10px;
+    display: block;
+}
+
+#signbar > *:last-child {
+    margin-right: 0px;
+}
+
+#signbar:last-child {
+    margin-right: 0;
+}
+
+.bar {
+    float: right;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.bar > * {
+    float: left;
+}
+
+.banner {
+    margin-bottom: 10px;
+    height: 150px;
+    background-image: url("../imgs/banner.jpg");
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#posts {
+    float: left;
+    width: 72.5%;
+}
+
+#discord {
+    float: right;
+    width: 25%;
+    height: 55%;
+}
+
+#discord iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.post {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.statusbar {
+    display: table;
+    margin: 0 auto 10px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.statusbar > * {
+    display: table-cell;
+    border: 1px solid #000;
+    float: left;
+    box-shadow: 2px 2px 0 0 rgba(0,0,0,1);
+}
+
+#visit {
+    width: 25%;
+    float: right;
+}
+
+#connect {
+    width: 25%;
+    margin-right: 1%;
+}
+
+#info {
+    width: 46%;
+    margin-right: 2%;
+}
+
+.postheader {
+    border-bottom: 2px solid #000;
+    text-align: left;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.postdetails .user {
+    margin-right: 10px;
+}
+
+.postcontent {
+    text-align: left;
+}
+
+.postfooter {
+    border-top: 2px solid #000;
+    padding: 2px;
+    font-weight: bold;
+}
+
+.userinfo {
+    border: 1px solid #000;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.userinfo > .title {
+    border-bottom: 1px solid black;
+    background-color: darkred;
+    color: #fff;
+}
+
+.avatars {
+    margin: auto;
+    width: 100%;
+    height: 340px;
+}
+
+.useravatar {
+    width: 120px;
+    height: 340px;
+    margin: 0 10px 0 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.userimg {
+    background-image: url("../imgs/128.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 320px;
+}
+
+.username{
+    height: 20px;
+    width: 100%;
+}
+
+.rules {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
